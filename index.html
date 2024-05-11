@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <style></style>
+    </head>
+    <body>
+        <div id="overlay"></div>
+        <div id="sub">
+            <p>Subscribe on e-mail notifications pls</p>
+            <div>
+                <button id="sub-accept">Accept</button>
+                <button id="sub-decline">Decline</button>
+            </div>
+        </div>
+        <header>
+            <img src="images/logo.png" width="75px">
+            <p>Phone shop</p>
+        </header>
+        <main>
+            <nav>
+                <h3>Made by:</h3>
+                <form>
+                    <input class="checkbox" id="apple-checkbox" type="radio" name="select" onclick="loadWares('Samsung')">
+                    <label for="apple-checkbox">Samsung</label>
+                    <br>
+
+                    <input class="checkbox" id="asus-checkbox" type="radio" name="select" onclick="loadWares('Google Pixel')">
+                    <label for="asus-checkbox">Google Pixel</label>
+                    <br>
+
+                    <input class="checkbox" id="asus-checkbox" type="radio" name="select" onclick="loadWares('All')">
+                    <label for="asus-checkbox">All</label>
+                </form>
+            </nav>
+            <section id="wares">
+                
+            </section>
+        </main>
+    </body>
+    <script src='ad.js'></script>
+    <script src='warehouse.js'></script>
+</html>
